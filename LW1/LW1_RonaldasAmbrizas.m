@@ -21,7 +21,7 @@ A = [N,   N+1, N+2;
      
 var_a = A(3,2);
 var_b = A(2:3,1:2);
-var_c = A(1:3,1:3);
+var_c = A([1 3],[1 3]);
 
 v_modified = v(1:3); 
 A_final = [A, v_modified'];
